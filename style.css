@@ -279,3 +279,57 @@
     color: #000;
     transition: color 1s;
   }
+  .bg
+  {
+    background: #fff;
+    width:300px;
+    height:100px;
+    position:absolute;
+    left:-25%;
+    top:10%;
+    z-index:1;
+     font-size: 30px;
+    text-align:center;
+    font-family:微軟正黑體;
+  padding:15px;
+    -moz-box-shadow: 10px 10px 5px 0px rgba(128,128,128,1);
+  box-shadow: 10px 10px 5px 0px rgba(128,128,128,1);
+  color: #fff;
+  animation:bgm 3s infinite alternate;
+  }
+  span
+    {
+    font-size: 20px;
+    text-align:center;
+    
+    font-family:微軟正黑體;
+    }
+    @keyframes bgm
+    {
+      to{
+        left:-25%;
+      }
+      from
+      {
+        color:#000;
+        left:0;
+      }
+    }
+    a
+    {
+      text-decoration: none;
+      position:absolute;
+      left:80%;
+      top:90%;
+      font-size: 30px;
+      color:white ;
+      font-family:微軟正黑體;
+      
+    }
+    a:hover
+    {
+color: #000;
+transition: 1.5s transform,1s color;
+transform: translateX(-10%);
+
+    }
